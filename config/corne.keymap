@@ -55,7 +55,7 @@
                 default_layer {
                         label = "QWERTY";
                         bindings = <
-&none   &kp Q     &kp W   &kp E   &kp R   &kp T           &reset  &kp U   &kp I     &kp O   &kp P    &none
+&none   &kp Q     &kp W   &kp E   &kp R   &kp T           &kp Y  &kp U   &kp I     &kp O   &kp P    &none
 &none   &kp A     &kp S   &kp D   &kp F   &kp G           &kp H   &kp J   &kp K     &kp L   &kp SEMI &none
 &none   &kp Z     &kp X   &kp C   &kp V   &kp B           &kp N   &kp M   &kp COMMA &kp DOT &kp FSLH &none
           &mt LCTRL ESC   &kp SPACE       &mo 1           &mo 2   &kp LSHFT         &mt LWIN TAB
@@ -67,7 +67,7 @@
                         bindings = <
 &none   &kp N1  &kp N2    &kp N3    &kp N4    &kp N5         &kp N6  &kp N7   &kp N8   &kp N9    &kp N0    &none
 &none   &none   &kp GRAVE &kp MINUS &kp EQUAL &kp C_VOL_UP   &none   &kp LBKT &kp SQT  &kp RBKT  &kp PSCRN &none
-&none   &reset  &none     &none     &none     &kp C_VOL_DN   &none   &kp INS  &kp HOME &kp PG_UP &kp PIPE  &none
+&none   &none  &none     &none     &none     &kp C_VOL_DN   &none   &kp INS  &kp HOME &kp PG_UP &kp PIPE  &none
                           &trans    &none     &trans         &trans  &trans   &trans
                         >;
                 };
@@ -77,7 +77,7 @@
                         bindings = <
 &none   &kp EXCL &kp AT      &kp HASH  &kp DLLR &kp PRCNT    &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR      &none
 &none   &none    &kp TILDE   &kp UNDER &kp PLUS &none        &none     &kp LBRC &kp DQT   &kp RBRC  &kp LC(PSCRN) &none
-&none   &none    &none       &none     &none    &none        &reset    &kp DEL  &kp END   &kp PG_DN &kp BSLH      &none
+&none   &none    &none       &none     &none    &none        &none    &kp DEL  &kp END   &kp PG_DN &kp BSLH      &none
                     	     &none     &kp LALT &trans       &trans    &trans   &trans
                         >;
                 };
